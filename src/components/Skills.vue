@@ -1,8 +1,8 @@
 <template>
     <div class="container my-5">
-      <h2 class="text-center mb-4">My Skills</h2>
-  
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <h2 class="pb-2 border-bottom">Skills</h2>
+        
+      <div class="row row-cols-1 row-cols-lg-3 text-center g-4 py-5">
         <div class="col">
           <div class="card skill-card">
             <div class="card-header">

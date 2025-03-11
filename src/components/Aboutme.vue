@@ -1,6 +1,6 @@
 <template>
   
-    <div class="container px-4 py-5">
+    <div class="container px-6 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img src="@/assets/8.jpg" class="d-block mx-lg-auto img-fluid border-radius" width="300" height="300" loading="lazy">
@@ -50,4 +50,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  min-height: 100vh; /* Κάνει το container να καλύπτει όλο το ύψος της οθόνης */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 </style>

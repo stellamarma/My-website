@@ -30,6 +30,6 @@ const handleSelect = (key: string, keyPath: string[]) => {
 }
 
 .el-menu-item {
-  font-size: 18px; /* Αυξάνει το μέγεθος των γραμμάτων */
+  font-size: 20px; /* Αυξάνει το μέγεθος των γραμμάτων */
 }
 </style>
