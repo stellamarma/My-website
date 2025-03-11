@@ -7,12 +7,12 @@
     router
   >
     <!-- Χρήση του path με id για την πλοήγηση στις διάφορες ενότητες -->
-    <el-menu-item index="1" :to="'#aboutme'">About Me</el-menu-item>
-    <el-menu-item index="2" :to="'#skills'">Skills</el-menu-item>
-    <el-menu-item index="3" :to="'#projects'">Projects</el-menu-item>
-    <el-menu-item index="4" :to="'#education'">Education</el-menu-item>
-    <el-menu-item index="5" :to="'#languages'">Languages</el-menu-item>
-    <el-menu-item index="6" :to="'#contact'">Contact</el-menu-item>
+    <el-menu-item index="aboutme" :to="{ name: 'Aboutme' }">About Me</el-menu-item>
+<el-menu-item index="skills" :to="{ name: 'Skills' }">Skills</el-menu-item>
+<el-menu-item index="projects" :to="{ name: 'Projects' }">Projects</el-menu-item>
+<el-menu-item index="education" :to="{ name: 'Education' }">Education</el-menu-item>
+<el-menu-item index="languages" :to="{ name: 'Languages' }">Languages</el-menu-item>
+<el-menu-item index="contact" :to="{ name: 'Contact' }">Contact</el-menu-item>
   </el-menu>
 </template>
 
