@@ -1,6 +1,6 @@
 <template>
     <div class="container px-4 py-5">
-      <h2 class="text-center pb-2 border-bottom">Contact</h2>
+      <h2 class=" pb-2 border-bottom">Contact</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-md-2">
         <div class="col text-center">
           <a href="https://www.linkedin.com/in/stella-maria-matzari-6bb170271/" target="_blank" class="text-decoration-none">
