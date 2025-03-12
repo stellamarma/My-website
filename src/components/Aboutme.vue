@@ -1,58 +1,44 @@
 <template>
-  
-    <div class="container px-6 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="@/assets/8.jpg" class="d-block mx-lg-auto img-fluid border-radius" width="300" height="300" loading="lazy">
-        </div>
-        <div class="col-lg-6 text-center">
-          <div>
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-content">Stella Maria Matzari</h1>
-            <p class="lead">I have experience in designing and migrating websites, especially handling large databases and content. I enjoy learning new tools and finding ways to improve systems. I like working on projects that challenge me, and I always aim to create user-friendly solutions. I’m organized, detail-oriented, and love working with others to get the job done efficiently.</p>
-          </div>
-
-        </div>
-      </div>
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="row flex-lg-row-reverse align-items-center g-5 text-center">
+    
+    <!-- Εικόνα -->
+    <div class="col">
+      <img src="@/assets/8.jpg" class="d-block mx-auto img-fluid rounded-circle" width="300" height="300" loading="lazy">
     </div>
- 
+
+    <!-- Κείμενο -->
+    <div class="col">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-content">Stella Maria Matzari</h1>  
+      <p class="lead">
+        I have experience in designing and migrating websites, especially handling large databases and content. 
+        I enjoy learning new tools and finding ways to improve systems. I like working on projects that challenge me, 
+        and I always aim to create user-friendly solutions. I’m organized, detail-oriented, and love working with others 
+        to get the job done efficiently.
+      </p>
+    </div>
+
+  </div>
+</div>
+
 </template>
 
 <script>
 </script>
 
 <style scoped>
-
-
-
-.text-center {
+.row {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  height: 100%;
-  text-align: center;
+  gap: 20px; /* Προσθέτει απόσταση */
 }
 
-.text-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-img {
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  min-height: 100vh; /* Κάνει το container να καλύπτει όλο το ύψος της οθόνης */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 </style>
