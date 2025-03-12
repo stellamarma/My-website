@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Menu1 /> <!-- Το μενού εδώ -->
+    <Menu1 /> <!-- Το μενού -->
     <div class="content">
       <section id="aboutme">
         <Aboutme />
@@ -26,7 +26,6 @@
 </template>
 
 <script>
-// Εισαγωγή των components
 import Aboutme from './components/Aboutme.vue';
 import Skills from './components/Skills.vue';
 import Projects from './components/Projects.vue';
@@ -51,6 +50,4 @@ export default {
 };
 </script>
 
-<style scoped>
 
-</style>
