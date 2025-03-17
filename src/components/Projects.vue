@@ -1,87 +1,46 @@
 <template>
-    <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom">Projects</h2>
-  
-      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <!-- First Card with Link -->
-        <div class="col">
-          <a href="https://assignment-drab-seven.vercel.app/" class="card-link">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/src/assets/Time.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
-                <ul class="d-flex list-unstyled mt-auto">
-
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                 
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </a>
-        </div>
-  
-        <!-- Second Card with Link -->
-        <div class="col">
-          <a href="https://assignment-fk97.vercel.app/" class="card-link">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/src/assets/Bookstore.png');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
-                <ul class="d-flex list-unstyled mt-auto">
-               
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                   
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </a>
-        </div>
-  
-        <!-- Third Card with Link -->
-        <div class="col">
-          <a href="https://www.example3.com" class="card-link">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              
-                <ul class="d-flex list-unstyled mt-auto">
-
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                  
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                   
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </a>
-        </div>
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom mt-4">Project</h2>
+    
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <a href="https://assignment-drab-seven.vercel.app/" target="_blank">
+          <img src="@/assets/Time.jpg" alt="Image 1" class="img-fluid mt-3">
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a href="https://assignment-fk97.vercel.app/" target="_blank">
+          <img src="@/assets/Bookstore.jpg" alt="Image 2" class="img-fluid mt-3">
+        </a>
+      </div>
+      <div class="col-md-4 col-12">
+        <a href="https://example.com/3" target="_blank">
+          <!-- <img src="@/assets/image3.jpg" alt="Image 3" class="img-fluid mt-3"> -->
+        </a>
       </div>
     </div>
-  </template>
-  
-  <style scoped>
-  .card-cover {
-      background-size: cover; 
-      background-position: center;
-  }
-  
-  /* Ensure the card behaves like a clickable area */
-  .card-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-  }
-  </style>
-  
+  </div>
+</template>
+
+<style scoped>
+/* Στυλ για τις εικόνες */
+.img-fluid {
+  border-radius: 10px; /* Στρογγυλές γωνίες */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Εφέ κατά την αλληλεπίδραση */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ελαφριά σκιά γύρω από τις εικόνες */
+  width: 100%; /* Κάνουμε τις εικόνες να γεμίζουν το πλαίσιο */
+  height: 200px; /* Σταθερό ύψος για όλες τις εικόνες */
+  object-fit: cover; /* Διατηρεί την εικόνα στο ίδιο μέγεθος και κεντράρει το περιεχόμενο */
+}
+.img-fluid:hover {
+  transform: scale(1.05); /* Ελαφριά μεγέθυνση όταν περνάς το ποντίκι πάνω */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Εντονότερη σκιά στο hover */
+}
+.container {
+  margin-top: 50px;
+}
+img {
+  margin-top: 25px; /* Μπορείς να αλλάξεις την τιμή ανάλογα με τις ανάγκες σου */
+}
+
+</style>
