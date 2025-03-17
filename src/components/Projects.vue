@@ -8,7 +8,7 @@
           <a href="https://assignment-drab-seven.vercel.app/" class="card-link">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/src/assets/Time.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Project Title</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
                 <ul class="d-flex list-unstyled mt-auto">
 
                   <li class="d-flex align-items-center me-3">
@@ -26,10 +26,10 @@
   
         <!-- Second Card with Link -->
         <div class="col">
-          <a href="https://www.example2.com" class="card-link">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+          <a href="https://assignment-fk97.vercel.app/" class="card-link">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/src/assets/Bookstore.png');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-               
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
                 <ul class="d-flex list-unstyled mt-auto">
                
                   <li class="d-flex align-items-center me-3">
