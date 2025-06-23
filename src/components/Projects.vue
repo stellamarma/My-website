@@ -14,8 +14,8 @@
         </a>
       </div>
       <div class="col-md-4 col-12">
-        <a href="https://example.com/3" target="_blank">
-          <!-- <img src="@/assets/image3.jpg" alt="Image 3" class="img-fluid mt-3"> -->
+        <a href="https://react-portfolio-6eb7.vercel.app/" target="_blank">
+           <img src="@/assets/movie-app.png" alt="Image 3" class="img-fluid mt-3"> 
         </a>
       </div>
     </div>

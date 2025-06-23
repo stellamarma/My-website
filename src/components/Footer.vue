@@ -23,7 +23,7 @@
             <a href="#contact" @click.prevent="scrollTo('contact')" class="nav-link px-2 text-body-secondary">Contact</a>
           </li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center text-body-secondary">© 2025 Stella-Maria Matzari</p>
       </footer>
     </div>
   </template>
