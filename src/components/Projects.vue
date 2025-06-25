@@ -26,8 +26,6 @@
     </div>
   </div>
 </template>
-
-
 <style scoped>
 /* Στυλ για τις εικόνες */
 .img-fluid {
