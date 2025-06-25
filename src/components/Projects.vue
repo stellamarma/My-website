@@ -1,34 +1,32 @@
 <template>
   <div class="container px-4 py-5">
     <h2 class="pb-2 border-bottom mt-4">Project</h2>
-    
+
     <div class="row">
-      <div class="col-md-4 col-12">
+      <div class="col-md-3 col-12">
         <a href="https://assignment-drab-seven.vercel.app/" target="_blank">
           <img src="@/assets/Time.jpg" alt="Image 1" class="img-fluid mt-3">
         </a>
       </div>
-      <div class="col-md-4 col-12">
+      <div class="col-md-3 col-12">
         <a href="https://assignment-fk97.vercel.app/" target="_blank">
           <img src="@/assets/Bookstore.jpg" alt="Image 2" class="img-fluid mt-3">
         </a>
       </div>
-      <div class="col-md-4 col-12">
+      <div class="col-md-3 col-12">
         <a href="https://react-portfolio-6eb7.vercel.app/" target="_blank">
-           <img src="@/assets/movie-app.png" alt="Image 3" class="img-fluid mt-3"> 
+          <img src="@/assets/movie-app.png" alt="Image 3" class="img-fluid mt-3">
         </a>
       </div>
-     
-      <div class="col-md-4 col-12">
+      <div class="col-md-3 col-12">
         <a href="https://to-do-list-react-three-self.vercel.app/" target="_blank">
-          <img src="@/assets/todo.png" alt="Image 1" class="img-fluid mt-3">
+          <img src="@/assets/todo.png" alt="Image 4" class="img-fluid mt-3">
         </a>
       </div>
-      
     </div>
   </div>
- 
 </template>
+
 
 <style scoped>
 /* Στυλ για τις εικόνες */
@@ -45,7 +43,7 @@
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Εντονότερη σκιά στο hover */
 }
 .container {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 img {
   margin-top: 25px; /* Μπορείς να αλλάξεις την τιμή ανάλογα με τις ανάγκες σου */
