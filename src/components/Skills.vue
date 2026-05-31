@@ -52,6 +52,7 @@
                 <li>Galaxy ERP</li>
                 <li>Galaxy SFA</li>
                 <li>WordPress</li>
+                <li>Python</li>
               </ul>
             </div>
           </div>
