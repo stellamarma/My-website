@@ -10,9 +10,9 @@
       </div>
       <div class="col-md-7 col-12 mt-3 mt-md-0">
         <h3>Time Assignment</h3>
-        <p>Μια διαδραστική web εφαρμογή ανάλυσης και οπτικοποίησης οικονομικών δεδομένων, με έμφαση στη διαχρονική διακύμανση των τιμών και του πληθωρισμού μεταξύ της Ελληνικής, Γερμανικής και Γαλλικής αγοράς.
-          Το project αναπτύχθηκε με Vue 3 και TypeScript. Για τη δημιουργία του user interface χρησιμοποιήθηκε το framework Element Plus, προσφέροντας ένα σύγχρονο, minimal και enterprise-ready περιβάλλον εργασίας, ενώ ολόκληρο το layout έχει βελτιστοποιηθεί με custom HTML5 και CSS3 για άψογη responsive συμπεριφορά σε κάθε οθόνη.</p>
-        <a href="https://assignment-drab-seven.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Επίσκεψη στο Project</a>
+        <p>An interactive web application for financial data analysis and visualization, focusing on the long-term price and inflation fluctuations between the Greek, German, and French markets.
+          The project was developed using Vue 3 and TypeScript to ensure maximum stability, clean code, and type safety. The Element Plus framework was utilized to create the user interface, delivering a modern, minimal, and enterprise-ready working environment. Additionally, the entire layout has been optimized with custom HTML5 and CSS3 for a flawless responsive behavior across all screen sizes.</p>
+        <a href="https://assignment-drab-seven.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Visit Project</a>
       </div>
     </div>
 
@@ -24,9 +24,9 @@
       </div>
       <div class="col-md-7 col-12 mt-3 mt-md-0">
         <h3>Bookstore Application</h3>
-        <p>Μια ιστοσελίδα διαχείρισης βιβλιοπωλείου αναπτυγμένη με το framework Angular, χρησιμοποιώντας μια component-based αρχιτεκτονική για καθαρό και οργανωμένο κώδικα. Η εφαρμογή βασίζεται στο TypeScript για την ασφαλή και δομημένη διαχείριση της πληροφορίας.
-          Μέσα από το διαδραστικό περιβάλλον των components, ο χρήστης έχει τη δυνατότητα να διαχειριστεί τον κατάλογο εκτελώντας βασικές λειτουργίες, όπως η προσθήκη και η αφαίρεση βιβλίων, ενώ η εφαρμογή υπολογίζει αυτόματα και σε πραγματικό χρόνο το τελικό χρηματικό σύνολο των επιλογών του.</p>
-        <a href="https://assignment-fk97.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Επίσκεψη στο Project</a>
+        <p>A dynamic bookstore management website developed with the Angular framework, utilizing a component-based architecture for clean and organized code. The application relies on TypeScript to ensure secure, structured, and robust data management.
+          Through an interactive component environment, the user can fully manage the catalog by performing core operations such as adding and removing books, while the application automatically calculates the final monetary total of their selections in real-time.</p>
+        <a href="https://assignment-fk97.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Visit Project</a>
       </div>
     </div>
 
@@ -38,9 +38,9 @@
       </div>
       <div class="col-md-7 col-12 mt-3 mt-md-0">
         <h3>Movie App</h3>
-        <p>Μια dynamic web εφαρμογή αναζήτησης και παρουσίασης ταινιών, αναπτυγμένη με το framework React και σχεδιασμένη για να λειτουργεί σε πραγματικό χρόνο.
-          Η εφαρμογή συνδέεται με ένα Real-Time API ταινιών, αντλώντας ζωντανά δεδομένα όπως αφίσες, βαθμολογίες και περιλήψεις, εξασφαλίζοντας ότι οι χρήστες βλέπουν πάντα τις πιο πρόσφατες κυκλοφορίες. Επιπλέον, προσφέρει τη δυνατότητα στους χρήστες να οργανώνουν την εμπειρία τους, προσθέτοντας τις αγαπημένες τους ταινίες σε μια προσωπική λίστα ("Favorites").</p>
-        <a href="https://react-portfolio-6eb7.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Επίσκεψη στο Project</a>
+        <p>A dynamic web application for browsing and discovering movies, built with the React framework and designed to operate in real-time.
+          The application integrates with a Real-Time Movie API, fetching live data such as posters, ratings, and plot summaries, ensuring that users always view the latest releases. Furthermore, it allows users to personalize their experience by adding their favorite movies to a dedicated, custom "Favorites" list.</p>
+        <a href="https://react-portfolio-6eb7.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Visit Project</a>
       </div>
     </div>
 
@@ -52,9 +52,9 @@
       </div>
       <div class="col-md-7 col-12 mt-3 mt-md-0">
         <h3>To-Do List</h3>
-        <p>Η To-Do List βοηθάει τη διαχείριση των καθημερινών εργασιών, αναπτυγμένη με το framework React. Η εφαρμογή επιτρέπει στον χρήστη να οργανώνει την καθημερινότητά του με ευκολία, υποστηρίζοντας την προσθήκη, τη διαγραφή, καθώς και την ολοκλήρωση των tasks (tasks completion).
-          Το βασικό χαρακτηριστικό του project είναι ότι όλα τα δεδομένα αποθηκεύονται αυτόματα και με ασφάλεια στον browser του κάθε χρήστη (Local Storage). Με αυτόν τον τρόπο, οι εργασίες παραμένουν αποθηκευμένες ακόμα κι αν ο χρήστης κλείσει την καρτέλα ή ανανεώσει τη σελίδα, προσφέροντας μια απρόσκοπτη εμπειρία χρήσης.</p>
-        <a href="https://to-do-list-react-three-self.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Επίσκεψη στο Project</a>
+        <p>A practical To-Do List application designed for daily task management, built with the React framework. The application enables users to organize their daily schedules with ease, supporting core features such as adding, deleting, and marking tasks as completed.
+          The key feature of this project is that all data is automatically and securely stored directly within each user's browser (Local Storage). This ensures that tasks persist even if the user closes the tab or refreshes the page, delivering a seamless and uninterrupted user experience.</p>
+        <a href="https://to-do-list-react-three-self.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Visit Project</a>
       </div>
     </div>
 
@@ -66,9 +66,9 @@
       </div>
       <div class="col-md-7 col-12 mt-3 mt-md-0">
         <h3>OFIC GR</h3>
-        <p>Μια σύγχρονη ιστοσελίδα αναπτυγμένη με Vue 3 και TypeScript, η οποία λειτουργεί ως κόμβος ενημέρωσης και πολιτισμού. Το website έχει σχεδιαστεί για να φιλοξενεί και να διαχωρίζει αρμονικά δύο διαφορετικές κατηγορίες περιεχομένου: θεατρικά δρώμενα/νέα και επιστημονικά άρθρα.
-          Η χρησιμότητα της εφαρμογής έγκειται στην ικανότητά της να προσφέρει στον χρήστη μια οργανωμένη εμπειρία ανάγνωσης και αναζήτησης, είτε ενδιαφέρεται για τις τέχνες είτε για την επιστημονική έρευνα.</p>
-        <a href="https://oficgr.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Επίσκεψη στο Project</a>
+        <p>A modern web platform developed with Vue 3 and TypeScript, serving as a digital hub for information and culture. The website is carefully designed to host and seamlessly separate two distinct categories of content: theatrical events/news and scientific articles.
+          The core utility of the application lies in its ability to offer users an organized, clutter-free reading and browsing experience, whether their interest lies in the arts or in scientific research.</p>
+        <a href="https://oficgr.vercel.app/" target="_blank" class="btn btn-outline-primary btn-sm">Visit Project</a>
       </div>
     </div>
 
