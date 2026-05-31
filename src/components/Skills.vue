@@ -49,12 +49,9 @@
             <div class="card-body">
               <ul class="list-unstyled mt-3 mb-4">
                 <li>MySQL</li>
-                <li>PostgreSQL</li>
-                <li>Postman</li>
-                <li>K6</li>
+                <li>Galaxy ERP</li>
+                <li>Galaxy SFA</li>
                 <li>WordPress</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
               </ul>
             </div>
           </div>
