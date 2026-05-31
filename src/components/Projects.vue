@@ -23,6 +23,11 @@
           <img src="@/assets/todo.png" alt="Image 4" class="img-fluid mt-3">
         </a>
       </div>
+            <div class="col-md-3 col-12">
+        <a href="https://oficgr.vercel.app/" target="_blank">
+          <img src="@/assets/ofic.png" alt="Image 5" class="img-fluid mt-3">
+        </a>
+      </div>
     </div>
   </div>
 </template>
